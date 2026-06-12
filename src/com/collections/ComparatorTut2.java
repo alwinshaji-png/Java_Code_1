@@ -46,6 +46,9 @@ public class ComparatorTut2 {
             System.out.println(s.getName() + " : " + s.getGpa());
         }
 
+        for(int i=0;i<students.size();i++){
+            System.out.println(students.get(i).getName());
+        }
 
     }
 }
