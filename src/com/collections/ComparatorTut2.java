@@ -50,5 +50,20 @@ public class ComparatorTut2 {
             System.out.println(students.get(i).getName());
         }
 
+        // Sort in Ascending order
+        students.sort((o1, o2) -> {
+            if (o2.getGpa() - o1.getGpa()>0){
+                return -1;
+            } else if(o2.getGpa() - o1.getGpa()<0){
+                return 1;
+            }else{
+                return 0;
+            }
+        });
+
+        for (Student s : students) {
+            System.out.println(s.getName() + " : " + s.getGpa());
+        }
+
     }
 }
