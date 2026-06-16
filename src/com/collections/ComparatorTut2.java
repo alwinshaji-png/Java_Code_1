@@ -71,5 +71,7 @@ public class ComparatorTut2 {
                 System.out.println(s.getName());
         }
 
+        System.out.println("Hello");
+
     }
 }
