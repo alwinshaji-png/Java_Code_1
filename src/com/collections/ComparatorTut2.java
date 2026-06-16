@@ -65,5 +65,11 @@ public class ComparatorTut2 {
             System.out.println(s.getName() + " : " + s.getGpa());
         }
 
+        // Print names of student above 3.5 GPA
+        for (Student s : students) {
+            if(s.getGpa()>3.5)
+                System.out.println(s.getName());
+        }
+
     }
 }
